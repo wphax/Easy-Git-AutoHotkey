@@ -9,14 +9,13 @@ Usage Instructions
 
 * You will need to have [AutoHotkey](http://autohotkey.com) installed and have a basic understanding of how to use it (I can't help you there, sorry).
 * To change the button that gets pressed to run the script, edit the first line of the script to the [button of your choice](http://www.autohotkey.com/docs/KeyList.htm).
-
-Known Issues
-===========
-
-* Not exactly an issue, but I want to be able to specify a "Start in" directory, since it starts in <pre>/c/Program Files (x86)/AutoHotkey</pre>.
+* After pressing the button, the script waits 0.5 seconds and then inserts some text into Git Bash to change the directory on startup. Edit that to your choosing.
 
 Changelog
 ===========
+
+### 1.1
+* Added "Start in" directory ability
 
 ### 1.0
 * Initial Release
