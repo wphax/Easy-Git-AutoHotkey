@@ -9,13 +9,17 @@ Usage Instructions
 
 * You will need to have [AutoHotkey](http://autohotkey.com) installed and have a basic understanding of how to use it (I can't help you there, sorry).
 * To change the button that gets pressed to run the script, edit the first line of the script to the [button of your choice](http://www.autohotkey.com/docs/KeyList.htm).
-* After pressing the button, the script waits 0.5 seconds and then inserts some text into Git Bash to change the directory on startup. Edit that to your choosing.
+* When you press the hotkey button, an input box appears for you to type in a directory path or a predefined variable that you can set in the script (see the examples in the current script). Just be sure to not use variable names that would otherwise go to a directory if you were to type them in.
+* After typing in a directory path or predefined variable, the script waits 0.5 seconds and then inserts the directory path into Git Bash to change the directory on startup.
 
 Changelog
 ===========
 
+### 1.2
+* Added an input box that will allow you to type a "Start in" directory path or a predefined variable. 
+
 ### 1.1
-* Added "Start in" directory ability
+* Added "Start in" directory ability _(functionality modified in v1.2)_
 
 ### 1.0
 * Initial Release
